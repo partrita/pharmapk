@@ -162,7 +162,7 @@ height="2.155675853018373in"}
 -->
 
 ```{r fa-fg-fh, fig.cap = "(ref:fa-fg-fh)", out.width="100%"}
-knitr::include_graphics("media-01/03.png")
+knitr::include_graphics("media-01/03-revised.jpeg")
 ```
 
 (ref:fa-fg-fh) F(=F~a~ × F~g~ × F~h~, 생체이용률)를 구성하는 세가지 요소. 100 mg을 먹었을 때 소화관 내강과 장 상피세포, 간을 순차적으로 통과하여 전신순환혈에 도달하는 분율을 계산하는 예
