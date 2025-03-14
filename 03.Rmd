@@ -79,7 +79,6 @@
 ### sNCA()
 
 
-# For one subject
 
 
 

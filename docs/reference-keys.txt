@@ -74,7 +74,6 @@ loading
 noncompart-r-패키지를-이용한-nca
 tblNCA
 snca
-for-one-subject
 nca-보고서
 txtnca
 pdfnca
