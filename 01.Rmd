@@ -392,7 +392,7 @@ knitr::include_graphics("media-01/10.png")
 knitr::include_graphics("media-01/11.png")
 ```
 
-(ref:chart) 알려진 670가지 소분자 의약품의 약동학 파라미터[@obach2008trend]를 이용하여 그려 본 V~d~(V~dss~)와 f~u~의 산점도: V~d~와 f~u~는 아무 관계도 없음을 알 수 있다.
+(ref:chart) 알려진 670가지 소분자 의약품의 약동학 파라미터[@obach2008trend]를 이용하여 그려 본 V~d~(V~dss~)와 f~u~의 산점도: f~u~만으로 V~d~를 예측하는 것은 어려움을 알 수 있다.
 
 ### V~d~가 약동학에 미치는 영향\index{약동학}
 
