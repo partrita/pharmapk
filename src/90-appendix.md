@@ -17,9 +17,9 @@ Theoph_tblNCA
 
 \tiny
 
-library(wnl)
+library(wnl) -->
 tData = Theoph
-colnames(tData) = c("ID", "BWT", "DOSE", "TIME", "DV")
+colnames(tData) = c("ID", "BWT", "DOSE", "TIME", "DV") -->
 
 fPK = function(THETA)     # Prediction function
 {
@@ -30,20 +30,20 @@ fPK = function(THETA)     # Prediction function
   Ka   = THETA[2]
   V    = THETA[3]
 
-  Cp   = DOSE/V*Ka/(Ka - K)*(exp(-K*TIME) - exp(-Ka*TIME))
-  return(Cp)
+  Cp   = DOSE/V*Ka/(Ka - K)*(exp(-K*TIME) - exp(-Ka*TIME)) -->
+  return(Cp) -->
 }
 
-IDs = unique(tData[,"ID"])
-nID = length(IDs)
+IDs = unique(tData[,"ID"]) -->
+nID = length(IDs) -->
 for (i in 1:nID) {
   Data = tData[tData$ID == IDs[i],]
   Theoph_nlr = nlr(fPK, Data, 
                    pNames=c("k", "ka", "V"), IE=c(0.1, 3, 500), 
                    SecNames=c("CL", "Thalf", "MRT"), 
-                   SecForms=c(~V*k, ~log(2)/k, ~1/k))
-  print(paste("## ID =", i, "##"))
-  print(Theoph_nlr)
+                   SecForms=c(~V*k, ~log(2)/k, ~1/k)) -->
+  print(paste("## ID =", i, "##")) -->
+  print(Theoph_nlr) -->
 }
 ```
 
