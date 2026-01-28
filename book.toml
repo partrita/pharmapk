@@ -10,3 +10,4 @@ edit-url-template = "https://github.com/pipetcpt/pharmapk/edit/master/{path}"
 
 [preprocessor.katex]
 renderers = ["html"]
+optional = true

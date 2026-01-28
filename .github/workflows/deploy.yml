@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: 'latest'
-          # mdbook-katex-version: 'latest'  # If you want to use katex
+          mdbook-katex-version: 'latest'
 
       - name: Build Book
         run: mdbook build
