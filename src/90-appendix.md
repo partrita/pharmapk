@@ -6,8 +6,6 @@
 [3장 비구획분석의 자료해석](#nca-analysis)의 \@ref(tblNCA)절에서 언급된 `NonCompart::tblNCA()` 실행결과를 별첨으로 수록하였다. 
 
 ```r
-\tiny
-
 Theoph_tblNCA
 ```
 
@@ -16,8 +14,6 @@ Theoph_tblNCA
 [5장 구획분석의 자료해석](#ca-analysis)의 \@ref(theoph-wnl)절에서 언급된 `wnl::nlr()` 실행결과를 별첨으로 수록하였다. 
 
 ```r
-\tiny
-
 library(wnl)
 tData = Theoph
 colnames(tData) = c("ID", "BWT", "DOSE", "TIME", "DV")
@@ -47,4 +43,3 @@ for (i in 1:nID) {
   print(Theoph_nlr)
 }
 ```
-
