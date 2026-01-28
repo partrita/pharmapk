@@ -5,8 +5,8 @@ src = "src"
 title = "청람바이오아카데미 총서 1: 신약개발을 위한 실전 약동학 I"
 
 [output.html]
-git-repository-url = "https://github.com/pipetcpt/pharmapk"
-edit-url-template = "https://github.com/pipetcpt/pharmapk/edit/master/{path}"
+git-repository-url = "https://github.com/partirta/pharmapk"
+edit-url-template = "https://github.com/partirta/pharmapk/edit/main/{path}"
 
 [preprocessor.katex]
 renderers = ["html"]
