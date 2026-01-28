@@ -8,7 +8,6 @@
 \tiny
 
 Theoph_tblNCA
-```
 
 
 # Theoph의 nlr의 전체 실행 결과 {#Theoph_nlr} 
@@ -45,6 +44,5 @@ for (i in 1:nID) {
   print(paste("## ID =", i, "##"))
   print(Theoph_nlr)
 }
-```
 
 
