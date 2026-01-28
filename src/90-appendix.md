@@ -7,7 +7,6 @@
 
 \tiny
 
-```{r}
 Theoph_tblNCA
 ```
 
@@ -18,7 +17,6 @@ Theoph_tblNCA
 
 \tiny
 
-```{r}
 library(wnl)
 tData = Theoph
 colnames(tData) = c("ID", "BWT", "DOSE", "TIME", "DV")
